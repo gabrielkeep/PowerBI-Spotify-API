@@ -13,11 +13,11 @@ Looking at the dashboard, you can select one or more songs. On the left it will 
 
   The Spotify have an API, that premium and free acounts can acess, its called [Spotify for Developers](https://developer.spotify.com/). To get the data I followed the next steps:
   
-  1. Create an application in Spotify for Developers
-  2. Get the ClientID and the ClientSecret
-  3. Request the token using terminal
+  1. Created an application in Spotify for Developers
+  2. Got the ClientID and the ClientSecret
+  3. Requested the token using terminal
   4. Copied the token
-  5. Make a request on Power Query passing the authorization token
+  5. Made a request on Power Query passing the authorization token
 
 ## Modeling the Data
 ![image](https://user-images.githubusercontent.com/115597735/235780235-11769dfb-c5a4-43d5-b410-141c166d2ca2.png)
