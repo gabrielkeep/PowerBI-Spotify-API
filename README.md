@@ -18,6 +18,8 @@ Looking at the dashboard, you can select one or more songs. On the left it will 
   3. Requested the token using terminal
   4. Copied the token
   5. Made a request on Power Query passing the authorization token
-
+  
 ## Modeling the Data
 ![image](https://user-images.githubusercontent.com/115597735/235780235-11769dfb-c5a4-43d5-b410-141c166d2ca2.png)
+
+The relationship between Album and Playlist is one-to-many, and the direction of cross filters points to both tables. The same occurs with Artists and Playlist, there is also another table, a calendar dimension that is one-to-many with the Album table, and points to Album.
